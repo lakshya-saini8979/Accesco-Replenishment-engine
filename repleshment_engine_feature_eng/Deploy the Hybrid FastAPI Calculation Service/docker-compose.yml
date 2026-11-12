@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: accesco_postgres_local
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-accesco}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-accesco_local_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-accesco_local}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - accesco_pg_data:/var/lib/postgresql/data
+      - ./sql/01_schema_ddl.sql:/docker-entrypoint-initdb.d/01_schema_ddl.sql
+      - ./sql/02_seed_dml.sql:/docker-entrypoint-initdb.d/02_seed_dml.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-accesco} -d ${POSTGRES_DB:-accesco_local}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  accesco_pg_data:

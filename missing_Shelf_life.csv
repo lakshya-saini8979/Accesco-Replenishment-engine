@@ -1,0 +1,12 @@
+,SKU ID,Product Name,Brand,Category,Sub-Category,Product Type,Pack Size,Unit,MRP (Rs.),Selling Price (Rs.),Margin %,Avg Daily Demand (units),Reorder Level,ABC Class,Velocity,Temp Zone,Shelf Life,Purchase Type,Seasonal
+2700,ACS-E&A-3701,boAt Charging Cable 1 pc,boAt,Electronics & Accessories,Cables,Charging Cable,1 pc,pcs,347,307,30,6,9,C,Slow,Ambient,,Planned,No
+2701,ACS-E&A-3702,Mi Charging Cable 1 pc,Mi,Electronics & Accessories,Cables,Charging Cable,1 pc,pcs,403,343,35,7,17,C,Slow,Ambient,,Planned,No
+2702,ACS-E&A-3703,Portronics Charging Cable 1 pc,Portronics,Electronics & Accessories,Cables,Charging Cable,1 pc,pcs,462,431,23,10,15,C,Slow,Ambient,,Planned,No
+2703,ACS-E&A-3704,Ambrane Charging Cable 1 pc,Ambrane,Electronics & Accessories,Cables,Charging Cable,1 pc,pcs,564,546,26,2,3,C,Slow,Ambient,,Planned,No
+2704,ACS-E&A-3705,boAt Earphones 1 pc,boAt,Electronics & Accessories,Audio,Earphones,1 pc,pcs,799,773,15,2,3,C,Slow,Ambient,,Planned,No
+2705,ACS-E&A-3706,Realme Earphones 1 pc,Realme,Electronics & Accessories,Audio,Earphones,1 pc,pcs,1031,969,33,11,22,C,Slow,Ambient,,Planned,No
+2706,ACS-E&A-3707,JBL Earphones 1 pc,JBL,Electronics & Accessories,Audio,Earphones,1 pc,pcs,1024,866,34,12,26,C,Slow,Ambient,,Planned,No
+2707,ACS-E&A-3708,Mi Earphones 1 pc,Mi,Electronics & Accessories,Audio,Earphones,1 pc,pcs,1376,1330,19,3,7,C,Slow,Ambient,,Planned,No
+2708,ACS-E&A-3709,Mi Power Bank 1 pc,Mi,Electronics & Accessories,Power,Power Bank,1 pc,pcs,2057,1962,20,13,29,C,Slow,Ambient,,Planned,No
+2709,ACS-E&A-3710,boAt Power Bank 1 pc,boAt,Electronics & Accessories,Power,Power Bank,1 pc,pcs,2519,2234,16,11,31,C,Slow,Ambient,,Planned,No
+2710,ACS-E&A-3711,Ambrane Power Bank 1 pc,Ambrane,Electronics & Accessories,Power,Power Bank,1 pc,pcs,2862,2688,24,3,8,C,Slow,Ambient,,Planned,No
